@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" href="css/screen.css">
+    <meta charset="UTF-8">
+    <title>Design Trust Chicago</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src=""></script>
+  </head>
+  <header>
+	<img src="images/logo.png" alt="DTC Logo">
+    <h1>Design Trust Chicago</h1>
+  </header>
+  <body>
+    <p>Building a better Chicago through equitable design</p>
+  </body>
+</html>
