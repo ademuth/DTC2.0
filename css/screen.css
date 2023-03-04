@@ -1,7 +1,8 @@
 /* modular scale used: https://www.modularscale.com/?1,1100,12&em&1.3 */
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Rampart+One&display=swap');
 
 body {
-  font-family: sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
   font-size: calc(12px + 0.75vw); /* Responsive scaling text/font size */
   margin: 0;
   padding: 0;
@@ -23,6 +24,7 @@ header {
   text-align: left;
   align-items: center;
   justify-content: left;
+  font-family: 'Rampart One', cursive;
 }
 
 #menuToggle {
