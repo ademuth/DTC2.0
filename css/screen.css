@@ -163,5 +163,9 @@ header {
 }
 
 #subheader {
-	text-align: center;
+  text-align: center;
+}
+
+#MAPPEDathon {
+  list-style-type: none;
 }
