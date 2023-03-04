@@ -125,7 +125,7 @@ header {
   width: 300px;
   margin: -100px 0 0 -50px;
   padding: 50px;
-  padding-top: 125px;
+  padding-top: 25px;
   
   background: #ededed;
   list-style-type: none;
@@ -152,7 +152,7 @@ header {
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
   padding: 10px;
 }
 .grid-item {
