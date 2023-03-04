@@ -20,9 +20,9 @@ header {
   width: 97%;
   display: flex;
   flex-direction: row;
-  text-align: center;
+  text-align: left;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
 }
 
 #menuToggle {
@@ -160,4 +160,8 @@ header {
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
   text-align: center;
+}
+
+#subheader {
+	text-align: center;
 }
