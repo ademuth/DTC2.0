@@ -40,5 +40,9 @@
         </ul>
       </div>
     </nav>
+	<div id="Donate">
+	  <h2>Donate or Sponsor</h2>
+	  <h3>Help support us financially</h3>
+	</div>
   </body>
 </html>
