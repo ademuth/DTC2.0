@@ -49,6 +49,7 @@ form {
   align-items: center;
   justify-content: center;
   display: grid;
+  grid-template-columns: auto auto;
 }
 
 #menuToggle {
