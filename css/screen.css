@@ -179,9 +179,10 @@ form {
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto;
   padding: 10px;
 }
+
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
@@ -199,4 +200,20 @@ form {
 
 #submit {
 	padding: 10px;
+}
+
+/*Media Queries*/
+
+@media screen and (min-width: 960px) {
+	
+
+
+}
+
+@media screen and (min-width: 600px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+  }
 }
