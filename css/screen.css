@@ -228,6 +228,18 @@ SOFTWARE.
 	padding: 10px;
 }
 
+.image-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image-row img {
+  width: 30%;
+  height: auto;
+  margin: 0 10px;
+}
+
 /*Media Queries*/
 
 @media screen and (min-width: 960px) {
