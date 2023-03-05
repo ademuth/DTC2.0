@@ -172,3 +172,15 @@ header {
 #MAPPEDathon {
   list-style-type: none;
 }
+
+#comment {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#submit {
+	padding: 10px;
+}
