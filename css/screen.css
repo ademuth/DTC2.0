@@ -216,8 +216,17 @@ SOFTWARE.
   text-align: center;
 }
 
+.grid-item img {
+  width: 50%;
+  height: auto;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #subheader {
   text-align: center;
+  grid-template-columns: auto;
 }
 
 #MAPPEDathon {
