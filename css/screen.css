@@ -244,6 +244,7 @@ SOFTWARE.
 
 #social img{
   width: 2%;
+  min-width: 20px;
   height: auto;
   float: right;
   padding: 10px;
