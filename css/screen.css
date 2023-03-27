@@ -273,7 +273,7 @@ SOFTWARE.
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: solid;
+  /*border: solid;*/
   border-radius: 5px;
   padding: 5px;
   margin: 5px;
