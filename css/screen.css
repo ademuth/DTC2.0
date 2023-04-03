@@ -298,6 +298,7 @@ SOFTWARE.
   flex-direction: column;
   width: 40%;
   margin-right: 20px;
+  margin-left: 0px;
   padding: 5px;
   margin: 5px;
   border: solid;
@@ -318,6 +319,7 @@ SOFTWARE.
   flex-direction: column;
   border: solid;
   border-radius: 5px;
+  margin-right: 0px;
   margin-left: 20px;
   padding: 5px;
   margin: 5px;
