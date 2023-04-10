@@ -95,7 +95,7 @@ SOFTWARE.
 }
 
 #menuToggle a:hover {
-  color: blue;
+  color: #009dff;
 }
 
 #menuToggle input {
@@ -155,7 +155,7 @@ SOFTWARE.
   margin: -100px 0 0 -275px;
   padding: 50px;
   padding-top: 100px;
-  background: #ededed;
+  background: #ffffff;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   transform-origin: 100% 0%;
@@ -179,7 +179,7 @@ SOFTWARE.
 }
 
 .grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgb(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
   text-align: center;
