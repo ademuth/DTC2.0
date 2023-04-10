@@ -150,7 +150,7 @@ SOFTWARE.
 }
 
 #menu {
-  position: fixed;
+  position: absolute;
   width: 300px;
   margin: -100px 0 0 -275px;
   padding: 50px;
