@@ -52,6 +52,16 @@ form {
   grid-template-columns: auto auto;
 }
 
+.video-container {
+  display: flex;
+  justify-content: center;
+}
+
+.video-container iframe {
+  margin: auto;
+}
+
+
 /*Below is MIT Licensed Software, specifically the hamburger menu
 this also includes any associated js or html
 
