@@ -205,6 +205,12 @@ SOFTWARE.
   margin-right: auto;
 }
 
+.aboutus1 {
+  padding: 40px;
+  background: rgb(155,209,242);
+background: linear-gradient(0deg, rgba(155,209,242,1) 0%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 75%, rgba(155,209,242,1) 100%);
+}
+
 #subheader {
   text-align: center;
   grid-template-columns: auto;
