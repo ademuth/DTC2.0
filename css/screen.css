@@ -160,6 +160,7 @@ SOFTWARE.
 }
 
 #menu {
+  display: none;
   position: absolute;
   width: 300px;
   margin: -100px 0 0 -275px;
@@ -178,7 +179,8 @@ SOFTWARE.
   font-size: 22px;
 }
 
-#menuToggle input:checked ~ ul {
+#menuToggle input:checked ~ #menu {
+  display: block;
   transform: none;
 }
 
