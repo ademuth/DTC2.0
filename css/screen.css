@@ -208,7 +208,7 @@ SOFTWARE.
 .aboutus1 {
   padding: 40px;
   background: rgb(155,209,242);
-background: linear-gradient(0deg, rgba(155,209,242,1) 0%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 75%, rgba(155,209,242,1) 100%);
+  background: linear-gradient(0deg, rgba(155,209,242,1) 0%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 75%, rgba(155,209,242,1) 100%);
 }
 
 #subheader {
@@ -280,41 +280,9 @@ background: linear-gradient(0deg, rgba(155,209,242,1) 0%, rgba(255,255,255,1) 25
   margin-right: auto;
 }
 
-.left-col {
-  display: flex;
-  flex-direction: column;
-  width: 40%;
-  margin-right: 20px;
-  padding: 5px;
-  margin: 5px;
-  border: solid;
-  border-radius: 5px;
-}
-
-.left-col img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin-bottom: 20px;
-
-}
-
-.right-col {
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-  border: solid;
-  border-radius: 5px;
-  margin-left: 20px;
-  padding: 5px;
-  margin: 5px;
-}
-
-
 /*Media Queries*/
 
 @media screen and (min-width: 960px) {
-	
 
 
 }
@@ -333,5 +301,4 @@ background: linear-gradient(0deg, rgba(155,209,242,1) 0%, rgba(255,255,255,1) 25
     display: grid;
     grid-template-columns: auto auto;
   }
-
 }
