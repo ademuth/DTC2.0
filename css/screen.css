@@ -61,6 +61,28 @@ form {
   margin: auto;
 }
 
+.collapse {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease-out;
+}
+
+.collapse h2 {
+  margin-top: 0;
+}
+
+.collapse p {
+  margin-bottom: 0;
+}
+
+.grid-item:hover .collapse {
+  max-height: 90%; /* set your desired max-height */
+}
 
 /*Below is MIT Licensed Software, specifically the hamburger menu
 this also includes any associated js or html
@@ -184,6 +206,8 @@ SOFTWARE.
   transform: none;
 }
 
+/*end of MIT licensed software*/
+
 .grid-container {
   display: grid;
   grid-template-columns: auto;
@@ -195,14 +219,17 @@ SOFTWARE.
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
   text-align: center;
+  font-size: 75%;
+  position: relative;
 }
 
 .grid-item img {
-  width: 50%;
+  width: 75%;
   height: auto;
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
+  display: block;
 }
 
 .aboutus1 {
